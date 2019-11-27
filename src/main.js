@@ -442,6 +442,7 @@ const renderElements = () => {
 
   const siteBoardElement = siteMainElement.querySelector(`.board`);
   render(siteBoardElement, createLoadButton(), `beforeend`);
+  
 };
 
 renderElements();
